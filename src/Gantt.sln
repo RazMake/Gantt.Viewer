@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gantt.Viewer", "Gantt.Viewer\Gantt.Viewer.csproj", "{66019728-8AC4-4321-96E4-57FA9DAC8DDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SyncEngines", "SyncEngines", "{0ED65840-D4DB-4FED-9C19-342CF2BE9F84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gantt.AzureDevOps.Sync", "SyncEngines\Gantt.AzureDevOps.Sync\Gantt.AzureDevOps.Sync.csproj", "{674D013B-6B13-4F5E-90A9-E15B5CABFE91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gantt.Contracts", "Gantt.Contracts\Gantt.Contracts.csproj", "{FB44E831-B0C8-4447-86C0-C11ED2EC0AEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserControls", "UserControls", "{2FF748AC-5A71-4FFD-94C5-6CEB24133CF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GanttChartControl", "UserControls\GanttChartControl\GanttChartControl.csproj", "{3264A43D-FF22-45A3-8776-A130E13F4938}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66019728-8AC4-4321-96E4-57FA9DAC8DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66019728-8AC4-4321-96E4-57FA9DAC8DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66019728-8AC4-4321-96E4-57FA9DAC8DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66019728-8AC4-4321-96E4-57FA9DAC8DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674D013B-6B13-4F5E-90A9-E15B5CABFE91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674D013B-6B13-4F5E-90A9-E15B5CABFE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674D013B-6B13-4F5E-90A9-E15B5CABFE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674D013B-6B13-4F5E-90A9-E15B5CABFE91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB44E831-B0C8-4447-86C0-C11ED2EC0AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB44E831-B0C8-4447-86C0-C11ED2EC0AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB44E831-B0C8-4447-86C0-C11ED2EC0AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB44E831-B0C8-4447-86C0-C11ED2EC0AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3264A43D-FF22-45A3-8776-A130E13F4938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3264A43D-FF22-45A3-8776-A130E13F4938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3264A43D-FF22-45A3-8776-A130E13F4938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3264A43D-FF22-45A3-8776-A130E13F4938}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{674D013B-6B13-4F5E-90A9-E15B5CABFE91} = {0ED65840-D4DB-4FED-9C19-342CF2BE9F84}
+		{3264A43D-FF22-45A3-8776-A130E13F4938} = {2FF748AC-5A71-4FFD-94C5-6CEB24133CF9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {394EBFC4-BCD3-4760-B4F9-DCE64ACBCDC7}
+	EndGlobalSection
+EndGlobal
